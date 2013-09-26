@@ -23,5 +23,29 @@ public class testFizzBuzz
 	{
 		assertEquals("Fizz",fb.Generar(9));
 	}
+	
+	@Test
+	public void ImprimirBuzzPara5()
+	{
+		assertEquals("Buzz",fb.Generar(5));
+	}
+	
+	@Test
+	public void ImprimirBuzzParaMultiplosDe5()
+	{
+		assertEquals("Buzz",fb.Generar(25));
+	}
+	
+	@Test
+	public void ImprimirFizzBuzzParaMultiplosDe3y5()
+	{
+		assertEquals("FizzBuzz",fb.Generar(15));
+	}
+	
+	@Test
+	public void ImprimirElMismoNumeroSiNoEsMultiploDe3Ni5()
+	{
+		assertEquals("8",fb.Generar(8));
+	}
 
 }
