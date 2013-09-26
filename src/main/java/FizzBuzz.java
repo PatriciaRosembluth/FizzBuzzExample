@@ -24,4 +24,14 @@ public class FizzBuzz
 		else
 			return false;
 	}
+	
+	public String Imprimir(int tam)
+	{
+		String resultado="";
+		for(int i=1;i<=tam;i++)
+		{
+			resultado=resultado+Generar(i)+"\n";
+		}
+		return resultado;
+	}
 }

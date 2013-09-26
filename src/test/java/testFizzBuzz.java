@@ -48,4 +48,10 @@ public class testFizzBuzz
 		assertEquals("8",fb.Generar(8));
 	}
 
+	@Test
+	public void ImprimirListaDeNumeros()
+	{
+		String lista="1\n"+"2\n"+"Fizz\n"+"4\n"+"Buzz\n";
+		assertEquals(lista,fb.Imprimir(5));
+	}
 }
